@@ -3,16 +3,16 @@ layout: default
 title: 3rd talk
 ---
 
-<h2>A Principled Programming Model for Constructing LLM-Powered Reasoning Tools</h2>
+<h2>Static abstract execution from Programs to Models</h2>
 
 <h3>Speaker</h3>
 
-<p>Dr. Aaron Bembenek, Research Fellow, the University of Melbourne</p>
+<p>A/Prof. Yulei Sui, UNSW</p>
 
 <h3>Abstract</h3>
 
-<p>There is growing excitement about building software verifiers, synthesizers, and other Automated Reasoning (AR) tools by combining traditional symbolic algorithms and Large Language Models (LLMs). Unfortunately, the current practice for constructing such neurosymbolic AR systems is an ad hoc programming model that does not have the strong guarantees of traditional symbolic algorithms, nor a deep enough synchronization of neural networks and symbolic reasoning to unlock the full potential of LLM-powered reasoning. I propose Neurosymbolic Transition Systems as a principled computational model that can underlie infrastructure for building neurosymbolic AR tools. In this model, symbolic state is paired with intuition, and state transitions operate over symbols and intuition in parallel. I argue why this new paradigm can scale logical reasoning beyond current capabilities while retaining the strong guarantees of symbolic algorithms, and I sketch out how the computational model I propose can be reified in a logic programming language.</p>
+<p>Static analysis has long served as an important basis for program reasoning and verification, enabling the extraction and interpretation of abstract representations of software systems. This talk explores how the principles of static analysis, as developed in our SVF framework, can be extended beyond traditional code analysis to areas such as abstract execution of AI models. As part of this ongoing effort, we are developing the ACT tool, which applies static reasoning to the analysis and verification of neural networks. It builds on the shared foundations between program analysis and neural network verification, both grounded in abstraction and symbolic reasoning over large input spaces. Our early findings indicate that static reasoning techniques provide useful insights for improving the reliability and robustness of modern AI systems.</p>
 
 <h3>Bio</h3>
 
-<p>Dr. Aaron Bembenek is a Research Fellow in the University of Melbourne’s School of Computing and Information Systems, currently working with Prof. Toby Murray on using automated reasoning to ensure software security. He earned a PhD in programming languages from Harvard University in 2023 under the guidance of Prof. Stephen Chong. In July 2026, he will start a McKenzie Fellowship (at the University of Melbourne) in neurosymbolic AI.</p>
+<p>Yulei Sui is an Associate Professor at UNSW. His research focuses on software analysis and verification, with an emphasis on developing open-source frameworks for static analysis to improve the reliability and quality of software systems. He also studies the intersection of large language models and software verification. His work has been published in conferences and journals in program analysis and software engineering, and has received recognition through paper awards at ICSE, FSE, OOPSLA, SAS, and CGO. His research has been supported by an ARC Future Fellowship, ARC Discovery Projects, a JSPS Fellowship, and industry funding from Google and Amazon.</p>
